@@ -14,7 +14,7 @@ function handleToDo(todo) {
   let li = document.createElement('li');
   let btn = document.createElement('button');
 
-//   // btn.addEventListener('click', handleDelete);
+  btn.addEventListener('click', handleDelete);
 
   btn.textContent = 'x';
   li.textContent = `${todo} `;
